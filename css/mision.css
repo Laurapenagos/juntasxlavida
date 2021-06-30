@@ -1,0 +1,40 @@
+/* General Styles */
+* {
+	margin: 0;
+    padding: 0;}
+body {background-color: rgb(218, 218, 227);}
+h1 {color: rgb(29, 209, 209); font-family: 'Quicksand', sans-serif; text-align: center;}
+p {color: black; font-family: 'Quicksand', sans-serif; text-align: center;}
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    
+    li{margin-right:60px;font-family: 'Quicksand', sans-serif; }
+    body {
+        background-image: url("Recurso-1.png");
+             }
+            
+            
+             p {
+                font-size: 42.64pt; 
+                font-family: 'Quicksand', sans-serif;text-align: left;margin-left: 55px;
+              }
+    
+      .video{display:flex;
+     align-items: center; 
+     justify-content: center;
+    }
+    @media screen and (max-width: 768px) {
+    
+    .body{width: 50%;}
+            
+            
+             p {
+                font-size: 42.64pt; 
+                font-family: 'Quicksand',sans-serif;text-align: left;margin-left: 55px;
+              }
+    
+      .video{display:flex;
+      align-items: center; 
+      justify-content: center;
+      width: 50%;}

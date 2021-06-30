@@ -1,0 +1,30 @@
+li{margin-right:60px;  font-family: 'Quicksand', sans-serif; text-align: center;;}
+
+body {
+	background-image: url("Recurso-1.png");
+		 }
+	
+       p {
+         font-size: 42.64pt; 
+         font-family: 'Quicksand', sans-serif;text-align: left;margin-left: 55px;
+       }
+      
+   video{display:flex;}
+
+   @media screen and (max-width: 768px){
+  
+  
+   .body{width: 50%;}
+	 	
+		
+   p {
+    font-size: 42.64pt;  
+    font-family: 'Quicksand', sans-serif;text-align: left;margin-left: 55px;
+    }
+
+.video{display:flex;
+align-items: center; 
+justify-content: center;
+width: 50%;}
+   }
+  
